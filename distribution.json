@@ -13,8 +13,6 @@
       "description": "추딴섬의 귀환 (추딴섬 런쳐 개발: 이팩터)",
       "icon": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/server-icon.png",
       "version": "1.0.0",
-      "address": "f-sgwset43-3wyheh-nj6ysgfj5yw-sdhj5-sh5yu78hnvcvzx.mcv.kr",
-      "minecraftVersion": "1.20.4",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -714,7 +712,9 @@
             "path": "shaderpacks/Shrimple.zip"
           }
         }
-      ]
+      ],
+      "address": "cansjko-fh2sdvw2z03-8qebid-sovnoonlnpqh-204hgr-f0ah9vub2z.mcv.kr",
+      "minecraftVersion": "1.20.4"
     }
   ]
 }
