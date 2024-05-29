@@ -651,9 +651,9 @@
           "name": "servers.dat",
           "type": "File",
           "artifact": {
-            "size": 9046,
+            "size": 20065,
             "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/files/config/defaultoptions/servers.dat",
-            "MD5": "588e9a915ea8e8300c3eda4c119e9be1",
+            "MD5": "9fa6b7fb30c6bf25d048e00e2a015412",
             "path": "config/defaultoptions/servers.dat"
           }
         },
