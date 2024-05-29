@@ -9,11 +9,11 @@
   "servers": [
     {
       "id": "bmd-1.20.4",
-      "name": "추딴섬 2",
-      "description": "추딴섬의 귀환 (추딴섬 런쳐 개발: 이팩터)",
-      "icon": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/server-icon.png",
+      "name": "페스티벌",
+      "description": "크리에이터의 화려한 놀이터! (1.20.4)",
+      "icon": "https://github.com/RTUServer/FestivalLauncher-Files/raw/main/server-icon.png",
       "version": "1.0.0",
-      "address": "f-sgwset43-3wyheh-nj6ysgfj5yw-sdhj5-sh5yu78hnvcvzx.mcv.kr",
+      "address": "play.rtuserver.kr",
       "minecraftVersion": "1.20.4",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -126,6 +126,16 @@
           }
         },
         {
+          "id": "net.blay09.mods.balm:balm-fabric:9.0.6@jar",
+          "name": "Balm",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 395874,
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/required/balm-fabric-1.20.4-9.0.6.jar",
+            "MD5": "93bc966b65255a20cb557084fff74619"
+          }
+        },
+        {
           "id": "me.cominixo:betterf3:9.0.2@jar",
           "name": "BetterF3",
           "type": "FabricMod",
@@ -172,6 +182,16 @@
           }
         },
         {
+          "id": "net.blay09.mods:defaultoptions:20.0.1@jar",
+          "name": "Default Options",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 88116,
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/required/defaultoptions-fabric-1.20.4-20.0.1.jar",
+            "MD5": "285dbc771fef5a795eddf5df7aad23f5"
+          }
+        },
+        {
           "id": "dev.tr7zw:entityculling:1.6.4@jar",
           "name": "EntityCulling",
           "type": "FabricMod",
@@ -205,19 +225,6 @@
           }
         },
         {
-          "id": "io.github.ultimateboomer.nofade:fadeless:1.0.1@jar",
-          "name": "Fadeless",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 7876,
-            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/optionalon/fadeless-1.0.1.jar",
-            "MD5": "1b17811bcc7052b8fc38a4c44bcf74a9"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
           "id": "com.kingcontaria:fastquit:3.0.0+1.20.4@jar",
           "name": "FastQuit",
           "type": "FabricMod",
@@ -244,19 +251,6 @@
           }
         },
         {
-          "id": "ru.feytox:feytweaks:1.20.4-1.2.8@jar",
-          "name": "FeyTweaks",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 176650,
-            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/optionalon/feytweaks-1.20.4-1.2.8.jar",
-            "MD5": "829086bf5c26d625597fe3d82539dc4b"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
           "id": "generated.fabricmod:forcecloseworldloadingscreen:2.2.1@jar",
           "name": "Kennytv's epic force close loading screen mod for Fabric",
           "type": "FabricMod",
@@ -267,16 +261,6 @@
           },
           "required": {
             "value": false
-          }
-        },
-        {
-          "id": "fuzs.forgeconfigapiport.fabric.impl:forgeconfigapiport:20.4.3@jar",
-          "name": "Forge Config API Port",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 444627,
-            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/required/ForgeConfigAPIPort-v20.4.3-1.20.4-Fabric.jar",
-            "MD5": "61c622d98e5938c377a45ad513b6de13"
           }
         },
         {
