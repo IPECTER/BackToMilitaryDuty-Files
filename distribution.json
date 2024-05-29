@@ -1,0 +1,736 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "bmd-1.20.4",
+      "name": "군복귀",
+      "description": "두등탁 (1.20.4)",
+      "icon": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/server-icon.png",
+      "version": "1.0.0",
+      "address": "google.com",
+      "minecraftVersion": "1.20.4",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.15.7",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1327275,
+            "MD5": "13832fed8b4ba82a4dd000b4c4b2e429",
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/repo/lib/net/fabricmc/fabric-loader/0.15.7/fabric-loader-0.15.7.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.4-fabric-0.15.7",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2847,
+                "MD5": "05b9315802cdbf6ff13f40258f070769",
+                "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/repo/versions/1.20.4-fabric-0.15.7/1.20.4-fabric-0.15.7.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.6",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 123598,
+                "MD5": "6f8bccf756f170d4185bb24c8c2d2020",
+                "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/repo/lib/org/ow2/asm/asm/9.6/asm-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.6",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 34041,
+                "MD5": "31c84ef7cc893fb278952ae2d6a2674f",
+                "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/repo/lib/org/ow2/asm/asm-analysis/9.6/asm-analysis-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.6",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 72194,
+                "MD5": "9e317c75534bd1da8c00a67c618ab288",
+                "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/repo/lib/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.6",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51935,
+                "MD5": "6062608f1a98afe1e853d01fa1221a9e",
+                "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/repo/lib/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.6",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 91131,
+                "MD5": "bd3bc1c176a787373e9a031073c9574b",
+                "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/repo/lib/org/ow2/asm/asm-util/9.6/asm-util-9.6.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.12.5+mixin.0.8.5",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1451874,
+                "MD5": "4cc3ff559cafdc70d9ed80e869d447f0",
+                "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/repo/lib/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.20.4",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 608319,
+                "MD5": "3a1cade1634c518db6147c9771686ea9",
+                "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/repo/lib/net/fabricmc/intermediary/1.20.4/intermediary-1.20.4.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "dev.architectury.utils:architectury:11.1.17@jar",
+          "name": "Architectury",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 587429,
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/required/architectury-11.1.17-fabric.jar",
+            "MD5": "666d154657c8c2241377720d679dc6de"
+          }
+        },
+        {
+          "id": "me.cominixo:betterf3:9.0.2@jar",
+          "name": "BetterF3",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1776259,
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/optionalon/BetterF3-9.0.2-Fabric-1.20.4.jar",
+            "MD5": "24fa26b55c158717323b0cb1abe58232"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:bettermounthud:1.2.2@jar",
+          "name": "Better Mount HUD",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 21587,
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/optionalon/bettermounthud-1.2.2.jar",
+            "MD5": "fdd255bd204f7d84850fd31ba687ad01"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:caramelchat:1.1.1@jar",
+          "name": "CaramelChat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 127984,
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/required/caramelChat-mc1.20.4-fabric-1.1.1.jar",
+            "MD5": "ce211fbef99feb36a042efd65ac28876"
+          }
+        },
+        {
+          "id": "me.shedaniel.autoconfig.example:cloth-config:13.0.121@jar",
+          "name": "Cloth Config v13",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1142084,
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/required/cloth-config-13.0.121-fabric.jar",
+            "MD5": "3903e7d3c9957bacedae1365ba856202"
+          }
+        },
+        {
+          "id": "dev.tr7zw:entityculling:1.6.4@jar",
+          "name": "EntityCulling",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 59582,
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/optionalon/entityculling-fabric-1.6.4-mc1.20.4.jar",
+            "MD5": "7b3ee1a853de2b28906b9840f3cba3ae"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.96.11+1.20.4@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2160959,
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/required/fabric-api-0.96.11+1.20.4.jar",
+            "MD5": "43fe492304dbd663fb3148d4f5c4a024"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-language-kotlin:1.10.19+kotlin.1.9.23@jar",
+          "name": "Fabric Language Kotlin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 6734779,
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/required/fabric-language-kotlin-1.10.19+kotlin.1.9.23.jar",
+            "MD5": "aa6ae207640288876f5b8551f5e33459"
+          }
+        },
+        {
+          "id": "io.github.ultimateboomer.nofade:fadeless:1.0.1@jar",
+          "name": "Fadeless",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7876,
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/optionalon/fadeless-1.0.1.jar",
+            "MD5": "1b17811bcc7052b8fc38a4c44bcf74a9"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.kingcontaria:fastquit:3.0.0+1.20.4@jar",
+          "name": "FastQuit",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 59105,
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/optionalon/fastquit-3.0.0+1.20.4.jar",
+            "MD5": "5a97735d1d3bdd5e6d1575d81a6081e0"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:ferritecore:6.0.3@jar",
+          "name": "FerriteCore",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 125100,
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/optionalon/ferritecore-6.0.3-fabric.jar",
+            "MD5": "a684cfcdbc32eddaf78782fb4e5762f4"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "ru.feytox:feytweaks:1.20.4-1.2.8@jar",
+          "name": "FeyTweaks",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 176650,
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/optionalon/feytweaks-1.20.4-1.2.8.jar",
+            "MD5": "829086bf5c26d625597fe3d82539dc4b"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:forcecloseworldloadingscreen:2.2.1@jar",
+          "name": "Kennytv's epic force close loading screen mod for Fabric",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 112392,
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/optionalon/forcecloseloadingscreen-2.2.1.jar",
+            "MD5": "cce74b8f248f9bd55cfa000cddfa858f"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "fuzs.forgeconfigapiport.fabric.impl:forgeconfigapiport:20.4.3@jar",
+          "name": "Forge Config API Port",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 444627,
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/required/ForgeConfigAPIPort-v20.4.3-1.20.4-Fabric.jar",
+            "MD5": "61c622d98e5938c377a45ad513b6de13"
+          }
+        },
+        {
+          "id": "link.infra:indium:1.0.30+mc1.20.4@jar",
+          "name": "Indium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 104805,
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/required/indium-1.0.30+mc1.20.4.jar",
+            "MD5": "e0b3675f1e6e8f00da58d42ec1bd1be7"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.7.0+mc1.20.4@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2671419,
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/required/iris-1.7.0+mc1.20.4.jar",
+            "MD5": "4cd07c5091cc9646ea26f7242a316bbe"
+          }
+        },
+        {
+          "id": "ru.vidtu:ksyxis:1.2.2@jar",
+          "name": "Ksyxis",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 16552,
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/optionalon/Ksyxis-1.2.2.jar",
+            "MD5": "0a024833bc17e2036e186f55a8b9c0c8"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "dev.lambdaurora:lambdynlights:2.3.4+1.20.4@jar",
+          "name": "LambDynamicLights",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 568669,
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/optionalon/lambdynamiclights-2.3.4+1.20.4.jar",
+            "MD5": "3c849e6337ff7c850762c6cc27f607ab"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:languagereload:1.5.10+1.20.3@jar",
+          "name": "Language Reload",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 200750,
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/optionalon/language-reload-1.5.10+1.20.3.jar",
+            "MD5": "fce9c13a98f7cacdad7710e51ca75b20"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "dev.chachy.lazylanguageloader:lazy-language-loader:0.3.5@jar",
+          "name": "Lazy-language-loader",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 25020,
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/optionalon/lazy-language-loader-0.3.5.jar",
+            "MD5": "13b62b06a28edf4a652f738e54eb0e62"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:lazydfu:0.1.3@jar",
+          "name": "LazyDFU",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 14531,
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/optionalon/lazydfu-0.1.3.jar",
+            "MD5": "b36e83f424c5bb5100a3e8ffea0c6ce7"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.jellysquid.mods:lithium:0.12.1@jar",
+          "name": "Lithium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 716022,
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/optionalon/lithium-fabric-mc1.20.4-0.12.1.jar",
+            "MD5": "83da6729d5402dc42eca740a96f97346"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "ca.fxco:memoryleakfix:1.1.5@jar",
+          "name": "Memory Leak Fix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 49334,
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/optionalon/memoryleakfix-fabric-1.17+-1.1.5.jar",
+            "MD5": "a8461f89d267441752c95beb5448e940"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:modelfix:1.14@jar",
+          "name": "Model Gap Fix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 65430,
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/optionalon/modelfix-1.14-fabric.jar",
+            "MD5": "37022aa425061707b0ed1ada2c071d97"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "org.embeddedt:modernfix:5.17.0+mc1.20.4@jar",
+          "name": "ModernFix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 458056,
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/optionalon/modernfix-fabric-5.17.0+mc1.20.4.jar",
+            "MD5": "c988c6a3371040def77a32f3741c9723"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "ca.fxco:moreculling:1.20.4-0.24.0@jar",
+          "name": "More Culling",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 272851,
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/optionalon/moreculling-1.20.4-0.24.0.jar",
+            "MD5": "109804ad4b9f14a549f02bf26c98ac44"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "yalter.mousetweaks:mousetweaks:2.26@jar",
+          "name": "Mouse Tweaks",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 77943,
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/optionalon/MouseTweaks-fabric-mc1.20-2.26.jar",
+            "MD5": "3138c776d370c90603938eb54d17469a"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.noxcrew:noxesium:1.2.2+f65a08b@jar",
+          "name": "Noxesium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 245461,
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/optionalon/noxesium-1.2.2.jar",
+            "MD5": "6a51b1a45a0bff47050f789f2b42c8d4"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:reeses-sodium-options:1.7.2+mc1.20.4-build.102@jar",
+          "name": "Reese's Sodium Options",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 77393,
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/required/reeses_sodium_options-1.7.2+mc1.20.4-build.102.jar",
+            "MD5": "3353347619cc18acb9b6ef811ac6a310"
+          }
+        },
+        {
+          "id": "generated.fabricmod:serverpingerfixer:1.0.4@jar",
+          "name": "Server Pinger Fixer",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7158,
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/optionalon/serverpingerfixer-1.0.4.jar",
+            "MD5": "9c94c8925a4535a6d28f8a38b05cd876"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.flashyreese.mods.sodiumextra:sodium-extra:0.5.4+mc1.20.4-build.116@jar",
+          "name": "Sodium Extra",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 385665,
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/required/sodium-extra-0.5.4+mc1.20.4-build.116.jar",
+            "MD5": "a414a1b266c8e6bd22b37c72413000ff"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods:sodium:0.5.8+mc1.20.4@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 937300,
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/required/sodium-fabric-0.5.8+mc1.20.4.jar",
+            "MD5": "0e0ac3a4042a917d32d1656e6af7a0f6"
+          }
+        },
+        {
+          "id": "me.lucko:spark:1.10.58@jar",
+          "name": "Spark",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3066467,
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/required/spark-1.10.58-fabric.jar",
+            "MD5": "84d7acb6a2254e3004b3fcbb1e7e3fbe"
+          }
+        },
+        {
+          "id": "generated.fabricmod:starlight:1.1.3+fabric.f5dcd1a@jar",
+          "name": "Starlight",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 126410,
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/optionalon/starlight-1.1.3+fabric.f5dcd1a.jar",
+            "MD5": "e4b2c577ba4501b8cc29c7217eeaf108"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.wisecase2:stutterfix:mc1.20.3-0.2.0@jar",
+          "name": "StutterFix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 26460,
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/optionalon/stutterfix-mc1.20.3-0.2.0.jar",
+            "MD5": "50e2f44c65d7452ff64aa046c9562f3f"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.github.getchoo.smoothboot:threadtweak:1.20.4-0.1.2@jar",
+          "name": "ThreadTweak",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 144229,
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/optionalon/threadtweak-fabric-1.20.4-0.1.2.jar",
+            "MD5": "e946665cf4916b4c4c48fbf94ea510ba"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.velum:videotape:1.2.1@jar",
+          "name": "Video Tape",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 24107,
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/optionalon/videotape-1.2.1.jar",
+            "MD5": "ae3d05e11e72621ce5ebfd671c464580"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "xaero.minimap:xaerominimap:24.1.1@jar",
+          "name": "Xaero's Minimap",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1474107,
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/optionaloff/Xaeros_Minimap_24.1.1_Fabric_1.20.4.jar",
+            "MD5": "c301070dc52186ce6e512d0849fca162"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "dev.isxander.yacl3.platform:yet_another_config_lib_v3:3.3.2+1.20.4@jar",
+          "name": "YetAnotherConfigLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 979275,
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/required/yet-another-config-lib-fabric-3.3.2+1.20.4.jar",
+            "MD5": "6e7dd15c39d9e13c83589134e41a2d03"
+          }
+        },
+        {
+          "id": "dev.isxander:zoomify:2.13.2@jar",
+          "name": "Zoomify",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1059619,
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/optionaloff/Zoomify-2.13.2.jar",
+            "MD5": "ab3d35b676c34df53199e1d95c3d779c"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "iris.properties",
+          "name": "iris.properties",
+          "type": "File",
+          "artifact": {
+            "size": 264,
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/files/config/defaultoptions/extra/config/iris.properties",
+            "MD5": "106356b72d9b9f37c9d186121946eb08",
+            "path": "config/defaultoptions/extra/config/iris.properties"
+          }
+        },
+        {
+          "id": "languagereload.json",
+          "name": "languagereload.json",
+          "type": "File",
+          "artifact": {
+            "size": 137,
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/files/config/defaultoptions/extra/config/languagereload.json",
+            "MD5": "0877ee949e4fd374c1ddbe3c1f82e89b",
+            "path": "config/defaultoptions/extra/config/languagereload.json"
+          }
+        },
+        {
+          "id": "sodium-extra-options.json",
+          "name": "sodium-extra-options.json",
+          "type": "File",
+          "artifact": {
+            "size": 1688,
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/files/config/defaultoptions/extra/config/sodium-extra-options.json",
+            "MD5": "ea92ddce68f28e32465fc5253a28837f",
+            "path": "config/defaultoptions/extra/config/sodium-extra-options.json"
+          }
+        },
+        {
+          "id": "sodium-options.json",
+          "name": "sodium-options.json",
+          "type": "File",
+          "artifact": {
+            "size": 627,
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/files/config/defaultoptions/extra/config/sodium-options.json",
+            "MD5": "0ad106f3d9288746ea64e4d5be8f9605",
+            "path": "config/defaultoptions/extra/config/sodium-options.json"
+          }
+        },
+        {
+          "id": "keybindings.txt",
+          "name": "keybindings.txt",
+          "type": "File",
+          "artifact": {
+            "size": 3717,
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/files/config/defaultoptions/keybindings.txt",
+            "MD5": "6b67c0e4f4f6194c5fe1a610f21cf9cc",
+            "path": "config/defaultoptions/keybindings.txt"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 2372,
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/files/config/defaultoptions/options.txt",
+            "MD5": "e2406eaad2a6fa8847d9795f190c89f0",
+            "path": "config/defaultoptions/options.txt"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 9046,
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/files/config/defaultoptions/servers.dat",
+            "MD5": "588e9a915ea8e8300c3eda4c119e9be1",
+            "path": "config/defaultoptions/servers.dat"
+          }
+        },
+        {
+          "id": "Bliss.zip",
+          "name": "Bliss.zip",
+          "type": "File",
+          "artifact": {
+            "size": 1697643,
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/files/shaderpacks/Bliss.zip",
+            "MD5": "60a2853b6d2a7421162d57a9356f5437",
+            "path": "shaderpacks/Bliss.zip"
+          }
+        },
+        {
+          "id": "Photon.zip",
+          "name": "Photon.zip",
+          "type": "File",
+          "artifact": {
+            "size": 1582360,
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/files/shaderpacks/Photon.zip",
+            "MD5": "5ed7082f2c9ba549cedbf68c2226f2e2",
+            "path": "shaderpacks/Photon.zip"
+          }
+        },
+        {
+          "id": "RTUShader-v5.0.zip",
+          "name": "RTUShader-v5.0.zip",
+          "type": "File",
+          "artifact": {
+            "size": 953760,
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/files/shaderpacks/RTUShader-v5.0.zip",
+            "MD5": "3fea6f0017b16831ee31322f6d3f0568",
+            "path": "shaderpacks/RTUShader-v5.0.zip"
+          }
+        },
+        {
+          "id": "SEUS-Renewed-Low.zip",
+          "name": "SEUS-Renewed-Low.zip",
+          "type": "File",
+          "artifact": {
+            "size": 7069209,
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/files/shaderpacks/SEUS-Renewed-Low.zip",
+            "MD5": "6f4ad9a30baeb808119bb3d586e79799",
+            "path": "shaderpacks/SEUS-Renewed-Low.zip"
+          }
+        },
+        {
+          "id": "Shrimple.zip",
+          "name": "Shrimple.zip",
+          "type": "File",
+          "artifact": {
+            "size": 10561761,
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/files/shaderpacks/Shrimple.zip",
+            "MD5": "8012fd24d43aab58092680bf44a55f5e",
+            "path": "shaderpacks/Shrimple.zip"
+          }
+        }
+      ]
+    }
+  ]
+}
