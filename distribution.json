@@ -10,9 +10,11 @@
     {
       "id": "bmd-1.20.4",
       "name": "마병대",
-      "description": "마병대 입소",
+      "description": "마병대 입소 (1.20.4)",
       "icon": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/server-icon.png",
       "version": "1.0.0",
+      "address": "rmaaa.kro.kr",
+      "minecraftVersion": "1.20.4",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -543,6 +545,16 @@
           }
         },
         {
+          "id": "de.maxhenkel:voicechat:1.20.4-2.5.20@jar",
+          "name": "Simple Voice Chat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 8136694,
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/required/voicechat-fabric-1.20.4-2.5.20.jar",
+            "MD5": "1fb99f96c970e2405c22ecf100f1ab2e"
+          }
+        },
+        {
           "id": "xaero.minimap:xaerominimap:24.1.1@jar",
           "name": "Xaero's Minimap",
           "type": "FabricMod",
@@ -585,9 +597,9 @@
           "name": "iris.properties",
           "type": "File",
           "artifact": {
-            "size": 264,
+            "size": 272,
             "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/files/config/defaultoptions/extra/config/iris.properties",
-            "MD5": "106356b72d9b9f37c9d186121946eb08",
+            "MD5": "85ced5b0073bb1343b71270f3de9e8b5",
             "path": "config/defaultoptions/extra/config/iris.properties"
           }
         },
@@ -596,9 +608,9 @@
           "name": "languagereload.json",
           "type": "File",
           "artifact": {
-            "size": 137,
+            "size": 144,
             "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/files/config/defaultoptions/extra/config/languagereload.json",
-            "MD5": "0877ee949e4fd374c1ddbe3c1f82e89b",
+            "MD5": "2f867137b39a9180037a7bf793b85edf",
             "path": "config/defaultoptions/extra/config/languagereload.json"
           }
         },
@@ -607,9 +619,9 @@
           "name": "sodium-extra-options.json",
           "type": "File",
           "artifact": {
-            "size": 1688,
+            "size": 1754,
             "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/files/config/defaultoptions/extra/config/sodium-extra-options.json",
-            "MD5": "ea92ddce68f28e32465fc5253a28837f",
+            "MD5": "14d423cded0404beb151787f4f561b14",
             "path": "config/defaultoptions/extra/config/sodium-extra-options.json"
           }
         },
@@ -618,9 +630,9 @@
           "name": "sodium-options.json",
           "type": "File",
           "artifact": {
-            "size": 627,
+            "size": 651,
             "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/files/config/defaultoptions/extra/config/sodium-options.json",
-            "MD5": "0ad106f3d9288746ea64e4d5be8f9605",
+            "MD5": "a1960afebec4652a11febb129a438c98",
             "path": "config/defaultoptions/extra/config/sodium-options.json"
           }
         },
@@ -629,9 +641,9 @@
           "name": "keybindings.txt",
           "type": "File",
           "artifact": {
-            "size": 3717,
+            "size": 3795,
             "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/files/config/defaultoptions/keybindings.txt",
-            "MD5": "6b67c0e4f4f6194c5fe1a610f21cf9cc",
+            "MD5": "adaea581b79cd43ca67f46304fde900d",
             "path": "config/defaultoptions/keybindings.txt"
           }
         },
@@ -640,9 +652,9 @@
           "name": "options.txt",
           "type": "File",
           "artifact": {
-            "size": 2372,
+            "size": 2478,
             "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/files/config/defaultoptions/options.txt",
-            "MD5": "e2406eaad2a6fa8847d9795f190c89f0",
+            "MD5": "66fa43d66b26db97db680f70a3223eac",
             "path": "config/defaultoptions/options.txt"
           }
         },
@@ -712,9 +724,7 @@
             "path": "shaderpacks/Shrimple.zip"
           }
         }
-      ],
-      "address": "cansjko-fh2sdvw2z03-8qebid-sovnoonlnpqh-204hgr-f0ah9vub2z.mcv.kr",
-      "minecraftVersion": "1.20.4"
+      ]
     }
   ]
 }
