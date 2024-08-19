@@ -141,11 +141,8 @@
           "type": "FabricMod",
           "artifact": {
             "size": 1776259,
-            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/optionalon/BetterF3-9.0.2-Fabric-1.20.4.jar",
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/required/BetterF3-9.0.2-Fabric-1.20.4.jar",
             "MD5": "24fa26b55c158717323b0cb1abe58232"
-          },
-          "required": {
-            "value": false
           }
         },
         {
@@ -154,11 +151,8 @@
           "type": "FabricMod",
           "artifact": {
             "size": 21587,
-            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/optionalon/bettermounthud-1.2.2.jar",
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/required/bettermounthud-1.2.2.jar",
             "MD5": "fdd255bd204f7d84850fd31ba687ad01"
-          },
-          "required": {
-            "value": false
           }
         },
         {
@@ -197,11 +191,8 @@
           "type": "FabricMod",
           "artifact": {
             "size": 59582,
-            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/optionalon/entityculling-fabric-1.6.4-mc1.20.4.jar",
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/required/entityculling-fabric-1.6.4-mc1.20.4.jar",
             "MD5": "7b3ee1a853de2b28906b9840f3cba3ae"
-          },
-          "required": {
-            "value": false
           }
         },
         {
@@ -225,42 +216,13 @@
           }
         },
         {
-          "id": "com.kingcontaria:fastquit:3.0.0+1.20.4@jar",
-          "name": "FastQuit",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 59105,
-            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/optionalon/fastquit-3.0.0+1.20.4.jar",
-            "MD5": "5a97735d1d3bdd5e6d1575d81a6081e0"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
           "id": "generated.fabricmod:ferritecore:6.0.3@jar",
           "name": "FerriteCore",
           "type": "FabricMod",
           "artifact": {
             "size": 125100,
-            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/optionalon/ferritecore-6.0.3-fabric.jar",
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/required/ferritecore-6.0.3-fabric.jar",
             "MD5": "a684cfcdbc32eddaf78782fb4e5762f4"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "generated.fabricmod:forcecloseworldloadingscreen:2.2.1@jar",
-          "name": "Kennytv's epic force close loading screen mod for Fabric",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 112392,
-            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/optionalon/forcecloseloadingscreen-2.2.1.jar",
-            "MD5": "cce74b8f248f9bd55cfa000cddfa858f"
-          },
-          "required": {
-            "value": false
           }
         },
         {
@@ -289,11 +251,8 @@
           "type": "FabricMod",
           "artifact": {
             "size": 16552,
-            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/optionalon/Ksyxis-1.2.2.jar",
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/required/Ksyxis-1.2.2.jar",
             "MD5": "0a024833bc17e2036e186f55a8b9c0c8"
-          },
-          "required": {
-            "value": false
           }
         },
         {
@@ -302,11 +261,8 @@
           "type": "FabricMod",
           "artifact": {
             "size": 568669,
-            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/optionalon/lambdynamiclights-2.3.4+1.20.4.jar",
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/required/lambdynamiclights-2.3.4+1.20.4.jar",
             "MD5": "3c849e6337ff7c850762c6cc27f607ab"
-          },
-          "required": {
-            "value": false
           }
         },
         {
@@ -315,11 +271,8 @@
           "type": "FabricMod",
           "artifact": {
             "size": 200750,
-            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/optionalon/language-reload-1.5.10+1.20.3.jar",
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/required/language-reload-1.5.10+1.20.3.jar",
             "MD5": "fce9c13a98f7cacdad7710e51ca75b20"
-          },
-          "required": {
-            "value": false
           }
         },
         {
@@ -328,11 +281,8 @@
           "type": "FabricMod",
           "artifact": {
             "size": 25020,
-            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/optionalon/lazy-language-loader-0.3.5.jar",
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/required/lazy-language-loader-0.3.5.jar",
             "MD5": "13b62b06a28edf4a652f738e54eb0e62"
-          },
-          "required": {
-            "value": false
           }
         },
         {
@@ -341,24 +291,8 @@
           "type": "FabricMod",
           "artifact": {
             "size": 14531,
-            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/optionalon/lazydfu-0.1.3.jar",
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/required/lazydfu-0.1.3.jar",
             "MD5": "b36e83f424c5bb5100a3e8ffea0c6ce7"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "me.jellysquid.mods:lithium:0.12.1@jar",
-          "name": "Lithium",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 716022,
-            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/optionalon/lithium-fabric-mc1.20.4-0.12.1.jar",
-            "MD5": "83da6729d5402dc42eca740a96f97346"
-          },
-          "required": {
-            "value": false
           }
         },
         {
@@ -367,24 +301,8 @@
           "type": "FabricMod",
           "artifact": {
             "size": 49334,
-            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/optionalon/memoryleakfix-fabric-1.17+-1.1.5.jar",
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/required/memoryleakfix-fabric-1.17+-1.1.5.jar",
             "MD5": "a8461f89d267441752c95beb5448e940"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "net.mehvahdjukaar:modelfix:1.14@jar",
-          "name": "Model Gap Fix",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 65430,
-            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/optionalon/modelfix-1.14-fabric.jar",
-            "MD5": "37022aa425061707b0ed1ada2c071d97"
-          },
-          "required": {
-            "value": false
           }
         },
         {
@@ -393,11 +311,8 @@
           "type": "FabricMod",
           "artifact": {
             "size": 458056,
-            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/optionalon/modernfix-fabric-5.17.0+mc1.20.4.jar",
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/required/modernfix-fabric-5.17.0+mc1.20.4.jar",
             "MD5": "c988c6a3371040def77a32f3741c9723"
-          },
-          "required": {
-            "value": false
           }
         },
         {
@@ -406,11 +321,8 @@
           "type": "FabricMod",
           "artifact": {
             "size": 272851,
-            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/optionalon/moreculling-1.20.4-0.24.0.jar",
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/required/moreculling-1.20.4-0.24.0.jar",
             "MD5": "109804ad4b9f14a549f02bf26c98ac44"
-          },
-          "required": {
-            "value": false
           }
         },
         {
@@ -419,24 +331,8 @@
           "type": "FabricMod",
           "artifact": {
             "size": 77943,
-            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/optionalon/MouseTweaks-fabric-mc1.20-2.26.jar",
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/required/MouseTweaks-fabric-mc1.20-2.26.jar",
             "MD5": "3138c776d370c90603938eb54d17469a"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "com.noxcrew:noxesium:1.2.2+f65a08b@jar",
-          "name": "Noxesium",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 245461,
-            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/optionalon/noxesium-1.2.2.jar",
-            "MD5": "6a51b1a45a0bff47050f789f2b42c8d4"
-          },
-          "required": {
-            "value": false
           }
         },
         {
@@ -455,11 +351,8 @@
           "type": "FabricMod",
           "artifact": {
             "size": 7158,
-            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/optionalon/serverpingerfixer-1.0.4.jar",
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/required/serverpingerfixer-1.0.4.jar",
             "MD5": "9c94c8925a4535a6d28f8a38b05cd876"
-          },
-          "required": {
-            "value": false
           }
         },
         {
@@ -483,26 +376,13 @@
           }
         },
         {
-          "id": "me.lucko:spark:1.10.58@jar",
-          "name": "Spark",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 3066467,
-            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/required/spark-1.10.58-fabric.jar",
-            "MD5": "84d7acb6a2254e3004b3fcbb1e7e3fbe"
-          }
-        },
-        {
           "id": "generated.fabricmod:starlight:1.1.3+fabric.f5dcd1a@jar",
           "name": "Starlight",
           "type": "FabricMod",
           "artifact": {
             "size": 126410,
-            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/optionalon/starlight-1.1.3+fabric.f5dcd1a.jar",
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/required/starlight-1.1.3+fabric.f5dcd1a.jar",
             "MD5": "e4b2c577ba4501b8cc29c7217eeaf108"
-          },
-          "required": {
-            "value": false
           }
         },
         {
@@ -511,11 +391,8 @@
           "type": "FabricMod",
           "artifact": {
             "size": 26460,
-            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/optionalon/stutterfix-mc1.20.3-0.2.0.jar",
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/required/stutterfix-mc1.20.3-0.2.0.jar",
             "MD5": "50e2f44c65d7452ff64aa046c9562f3f"
-          },
-          "required": {
-            "value": false
           }
         },
         {
@@ -524,11 +401,8 @@
           "type": "FabricMod",
           "artifact": {
             "size": 144229,
-            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/optionalon/threadtweak-fabric-1.20.4-0.1.2.jar",
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/required/threadtweak-fabric-1.20.4-0.1.2.jar",
             "MD5": "e946665cf4916b4c4c48fbf94ea510ba"
-          },
-          "required": {
-            "value": false
           }
         },
         {
@@ -537,11 +411,8 @@
           "type": "FabricMod",
           "artifact": {
             "size": 24107,
-            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/optionalon/videotape-1.2.1.jar",
+            "url": "https://github.com/IPECTER/BackToMilitaryDuty-Files/raw/main/servers/bmd-1.20.4/fabricmods/required/videotape-1.2.1.jar",
             "MD5": "ae3d05e11e72621ce5ebfd671c464580"
-          },
-          "required": {
-            "value": false
           }
         },
         {
